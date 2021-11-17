@@ -1,11 +1,14 @@
 {
+  "homepage": "https://valencassa.github.io/portfolio-react",
   "name": "next-portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.1.1",
@@ -23,6 +26,7 @@
   "devDependencies": {
     "@svgr/webpack": "^5.5.0",
     "eslint": "7.32.0",
-    "eslint-config-next": "12.0.3"
+    "eslint-config-next": "12.0.3",
+    "gh-pages": "^3.2.3"
   }
 }

@@ -13,7 +13,7 @@ const Work = () => (
         Js Course <Badge>2021</Badge>
       </Title>
       <TextSection>
-        This is part of the Javascript course I'm taking.
+        This is part of the Javascript course I&apos;m taking.
       </TextSection>
       <List ml={4} my={4}>
         <ListItem>

@@ -41,7 +41,7 @@ const heroSection = () => {
             <Divider w='100%' pos='absolute' ml='-2.5em' background='#2D323C'/>
             <TextHero >I'm Valen<chakra.span color='#DB6262'>.</chakra.span></TextHero>
             <Divider w='100%' pos='absolute' ml='-2.5em' background='#2D323C' mt='-0.1em'/>
-            <Text fontSize='17.5px' fontWeight='300' mt={2}>I’m a front-end developer based in Argentina!</Text>
+            <Text fontSize='17.5px' fontWeight='300' mt={2}>I&apos;m a front-end developer based in Argentina!</Text>
           </Box>
 
           <Box display={{base: 'none', md: 'block'}}>
