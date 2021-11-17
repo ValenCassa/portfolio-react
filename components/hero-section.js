@@ -39,7 +39,7 @@ const heroSection = () => {
           <Box textAlign={{base: 'center', md: 'left'}}>
             <TextHero >Hello<chakra.span color='#DB6262'>.</chakra.span></TextHero>
             <Divider w='100%' pos='absolute' ml='-2.5em' background='#2D323C'/>
-            <TextHero >I'm Valen<chakra.span color='#DB6262'>.</chakra.span></TextHero>
+            <TextHero >I&apos;m Valen<chakra.span color='#DB6262'>.</chakra.span></TextHero>
             <Divider w='100%' pos='absolute' ml='-2.5em' background='#2D323C' mt='-0.1em'/>
             <Text fontSize='17.5px' fontWeight='300' mt={2}>I&apos;m a front-end developer based in Argentina!</Text>
           </Box>
