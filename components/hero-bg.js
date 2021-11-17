@@ -25,7 +25,7 @@ export const Circle = () => {
                 <Box ml={9} mt='6em' pos='absolute' zIndex={-1}>
                 <Ellipse2 />
                 </Box>
-                <Box ml='24.3em' mt='9.5em' pos='absolute' zIndex={-1}>
+                <Box right={0} mr='15em' mt='9.5em' pos='absolute' zIndex={-1}>
                 <Ellipse4 />
                 </Box>
                 <Box right={0} mr='2em' mt='5em' pos='absolute' zIndex={-1} display={{base: 'none', md:'block'}}>
