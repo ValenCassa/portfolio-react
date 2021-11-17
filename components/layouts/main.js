@@ -20,7 +20,7 @@ const Main = ({ children, router }) => {
         <meta name="twitter:image" content="/card.png" />
         <meta property="og:site_name" content="Valentin Cassarino's Homepage" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/card.png" />
+        <meta property="og:image" content="/img/og.png" />
         <title>Valentin Cassarino - Homepage</title>
       </Head>
 
