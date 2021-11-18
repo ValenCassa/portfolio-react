@@ -5,7 +5,7 @@ import {BluredContainer, TextSectionTitle, TextSection, BioYear, BioData, Profil
 import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/animated-section'
-import { FaTwitter, FaGithub } from 'react-icons/fa'
+import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 
 function Home( ) {
@@ -64,6 +64,11 @@ function Home( ) {
                 <ListItem>
                   <Link href='https://twitter.com/valen_cassa' target='_blank'>
                   <Button _hover={{background: useColorModeValue('#202020', '#E7E7E7'), color: useColorModeValue('#E7E7E7', '#202020')}} color={useColorModeValue('#202020', '#E7E7E7')} background='transparent' leftIcon={<Icon as={ FaTwitter } />}>@valen_cassa</Button>
+                  </Link>
+                </ListItem>
+                <ListItem>
+                  <Link href='https://www.linkedin.com/in/valent%C3%ADn-cassarino/' target='_blank'>
+                  <Button _hover={{background: useColorModeValue('#202020', '#E7E7E7'), color: useColorModeValue('#E7E7E7', '#202020')}} color={useColorModeValue('#202020', '#E7E7E7')} background='transparent' leftIcon={<Icon as={ FaLinkedin } />}>Valentin Cassarino</Button>
                   </Link>
                 </ListItem>
               </List>
